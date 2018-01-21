@@ -1,0 +1,45 @@
+automation:
+
+  - alias: 'Jason home notification'
+    trigger:
+      platform: state
+      entity_id: device_tracker.jason_phone
+      from: 'not_home'
+      to: 'home'
+    action:
+      service: notify.pushbullet
+      data:
+        title: 'Jason is home'
+        message: 'Jason is home'
+
+  - alias: 'Jason away notification'
+    trigger:
+      platform: state
+      entity_id: device_tracker.jason_phone
+      from: 'home'
+      to: 'not_home'
+    action:
+      service: notify.pushbullet
+      data:
+        title: 'Jason is away'
+        message: 'Jason is away'
+
+  - id: night_dark_theme
+    alias: 'Change to a dark theme at night'
+    trigger:
+      - platform: sun
+        event: sunset
+    action:
+      service: frontend.set_theme
+      data:
+        name: midnight
+
+  - id: day_light_theme
+    alias: 'Change to a light theme during the day'
+    trigger:
+      - platform: sun
+        event: sunrise
+    action:
+      service: frontend.set_theme
+      data:
+        name: default

@@ -1,0 +1,3 @@
+duckdns:
+  domain: priebe-home
+  access_token: !secret duckdns_token

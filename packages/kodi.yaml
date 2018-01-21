@@ -1,0 +1,3 @@
+media_player:
+  - platform: kodi
+    host: 10.0.1.102

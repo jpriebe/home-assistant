@@ -1,0 +1,148 @@
+
+kim_phone:
+  hide_if_away: false
+  icon:
+  mac: 64:BC:0C:4E:F8:96
+  name: Kim
+  picture:
+  track: true
+  vendor: LG Electronics (Mobile Communications)
+
+jason_phone:
+  hide_if_away: false
+  icon:
+  mac: 60:F1:89:62:B3:BF
+  name: Jason
+  picture: /local/jason-192x192.jpg
+  gravatar: 
+  track: true
+  vendor: Murata Manufacturing Co., Ltd.
+
+abby_phone:
+  hide_if_away: false
+  icon:
+  mac: f0:d7:aa:d7:f2:63
+  name: Abby
+  picture:
+  gravatar: 
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_11:
+  hide_if_away: false
+  icon:
+  mac: 8C:85:90:27:F9:DB
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_2:
+  hide_if_away: false
+  icon:
+  mac: FC:65:DE:B9:C3:6A
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+libreelec______:
+  hide_if_away: false
+  icon:
+  mac: 3C:F8:62:80:E1:43
+  name: 'LIBREELEC      '
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_13:
+  hide_if_away: false
+  icon:
+  mac: 60:5B:B4:20:B8:BF
+  name: Unknown
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+unknown_7:
+  hide_if_away: false
+  icon:
+  mac: 74:75:48:4C:58:1F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_3:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:9F:34:3E
+  name: Unknown
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+
+brwacd1b88cdab0:
+  hide_if_away: false
+  icon:
+  mac: AC:D1:B8:8C:DA:B0
+  name: BRWACD1B88CDAB0
+  picture:
+  track: false
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+unknown_5:
+  hide_if_away: false
+  icon:
+  mac: 34:23:BA:FC:B9:D7
+  name: Unknown
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+
+unknown_4:
+  hide_if_away: false
+  icon:
+  mac: 74:81:14:97:0A:2C
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_10:
+  hide_if_away: false
+  icon:
+  mac: 00:11:D9:A2:9B:D8
+  name: Unknown
+  picture:
+  track: false
+  vendor: TiVo
+
+unknown_8:
+  hide_if_away: false
+  icon:
+  mac: C8:BC:C8:47:88:E1
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_12:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:02:B6:DB
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown:
+  hide_if_away: false
+  icon:
+  mac: 1C:4D:70:A6:AB:3F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
