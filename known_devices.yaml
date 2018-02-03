@@ -2,11 +2,11 @@
 kim_phone:
   hide_if_away: false
   icon:
-  mac: 64:BC:0C:4E:F8:96
+  mac: 40:4E:36:91:07:70
   name: Kim
   picture:
   track: true
-  vendor: LG Electronics (Mobile Communications)
+  vendor: HTC Corporation
 
 jason_phone:
   hide_if_away: false
@@ -146,3 +146,84 @@ unknown:
   picture:
   track: false
   vendor: Intel Corporate
+
+unknown_6:
+  hide_if_away: false
+  icon:
+  mac: 7C:D1:C3:8C:CA:BC
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_9:
+  hide_if_away: false
+  icon:
+  mac: E4:3E:D7:2F:BE:EC
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_14:
+  hide_if_away: false
+  icon:
+  mac: AC:63:BE:CB:3B:8A
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_15:
+  hide_if_away: false
+  icon:
+  mac: 58:BD:A3:EF:D7:61
+  name: Unknown
+  picture:
+  track: false
+  vendor: Nintendo Co., Ltd.
+
+unknown_16:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:91:07:70
+  name: Unknown
+  picture:
+  track: false
+  vendor: HTC Corporation
+
+unknown_17:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:8B:04:1C
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_18:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:95:24:6D
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_19:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:07:71:32
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+unknown_20:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:07:80:B2
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.

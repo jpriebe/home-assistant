@@ -8,9 +8,6 @@ device_tracker:
     new_device_defaults:
       track_new_devices: false
 
-  - platform: gpslogger
-    password: !secret gpslogger_password
-
 zone:
 
   - name: Home

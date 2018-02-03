@@ -1,5 +1,22 @@
 automation:
 
+
+  - id: entry_light_on_when_arriving_home
+    alias: "Entry light on when someone gets home"
+    initial_state: True
+    trigger:
+      platform: state
+      entity_id: group.all_devices
+      from: 'not_home'
+      to: 'home'
+    condition:
+      - condition: state
+        entity_id: sun.sun
+        state: 'below_horizon'
+    action:
+      service: switch.turn_on
+      entity_id: switch.entry_light_switch
+
   - alias: 'Jason home notification'
     trigger:
       platform: state
