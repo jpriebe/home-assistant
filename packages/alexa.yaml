@@ -1,0 +1,18 @@
+alexa:
+  smart_home:
+    filter:
+      include_domains:
+        - switch
+    entity_config:
+      switch.entry_light_switch:
+        name: Entry light
+        description: Light in doorway
+      switch.family_room_lamp_switch:
+        name: Family room lamp
+        description: Table lamp in family room
+      switch.front_porch_switch:
+        name: Front porch
+        description: Front porch and walkway lights
+      switch.xmas_lights_switch:
+        name: Xmas lights
+        description: Xmas lights outlet (receptacle in guest room)
