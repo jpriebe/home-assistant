@@ -1,0 +1,5 @@
+- name: Bedtime
+  entities:
+    switch.sonoff1: on
+    switch.sonoff2: off
+    switch.sonoff3: off

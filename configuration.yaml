@@ -65,5 +65,6 @@ cloud:
 
 mqtt:
 
+scene: !include scenes.yaml
 group: !include groups.yaml
 script: !include scripts.yaml

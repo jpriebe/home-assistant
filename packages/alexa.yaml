@@ -2,6 +2,10 @@ alexa:
   smart_home:
     filter:
       include_domains:
+        - group
+        - light
+        - scene
+        - script
         - switch
     entity_config:
       switch.entry_light_switch:

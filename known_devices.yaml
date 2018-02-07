@@ -227,3 +227,12 @@ unknown_20:
   picture:
   track: false
   vendor: Espressif Inc.
+
+unknown_21:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:DD:E5:CB
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
