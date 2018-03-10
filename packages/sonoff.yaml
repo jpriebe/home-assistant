@@ -6,6 +6,8 @@ homeassistant:
       friendly_name: "Jason's lamp"
     switch.sonoff3:
       friendly_name: "Kim's lamp"
+    switch.sonoff4:
+      friendly_name: "Guest room lamp"
 
 switch:
   - platform: mqtt

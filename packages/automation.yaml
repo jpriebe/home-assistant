@@ -62,6 +62,26 @@ automation:
         name: default
 
 
+  - id: night_guest_room_on
+    alias: 'Turn the guest room lamp on at night'
+    trigger:
+      - platform: sun
+        event: sunset
+    action:
+      - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_on
+        entity_id: switch.guest_room_lamp
+
+  - id: night_guest_room_off
+    alias: 'Turn the guest room lamp off about an hour after sunset'
+    trigger:
+      - platform: sun
+        event: sunset
+    action:
+      - delay: "01:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.guest_room_lamp
+
   - id: night_porch_on
     alias: 'Turn the porch light on at night'
     trigger:
