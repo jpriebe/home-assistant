@@ -236,3 +236,84 @@ unknown_21:
   picture:
   track: false
   vendor: Apple, Inc.
+
+unknown_22:
+  hide_if_away: false
+  icon:
+  mac: 00:A0:96:81:BA:FF
+  name: Unknown
+  picture:
+  track: false
+  vendor: MITSUMI ELECTRIC CO.,LTD.
+
+unknown_23:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:82:96:D4
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_24:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:92:A9:B3
+  name: Unknown
+  picture:
+  track: false
+  vendor: HTC Corporation
+
+unknown_25:
+  hide_if_away: false
+  icon:
+  mac: FC:F1:52:1B:75:76
+  name: Unknown
+  picture:
+  track: false
+  vendor: Sony Corporation
+
+unknown_26:
+  hide_if_away: false
+  icon:
+  mac: 18:2A:7B:CD:4F:8D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Nintendo Co., Ltd.
+
+unknown_27:
+  hide_if_away: false
+  icon:
+  mac: 18:65:90:D6:FC:A7
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_28:
+  hide_if_away: false
+  icon:
+  mac: B0:72:BF:57:CB:13
+  name: Unknown
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+unknown_29:
+  hide_if_away: false
+  icon:
+  mac: C8:E0:EB:A6:A9:7F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+jason_phone_ip:
+  hide_if_away: false
+  icon:
+  mac:
+  name: jason phone ip
+  picture: /local/jason-192x192.jpg
+  track: true
+  vendor:
