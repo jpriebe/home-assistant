@@ -20,6 +20,3 @@ alexa:
       switch.xmas_lights_switch:
         name: Xmas lights
         description: Xmas lights outlet (receptacle in guest room)
-      switch.guest_room_lamp:
-        name: Guest room lamp
-        description: Guest room lamp (table lamp in guest room)
