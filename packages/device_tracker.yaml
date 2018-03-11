@@ -8,10 +8,6 @@ device_tracker:
     new_device_defaults:
       track_new_devices: false
 
-  - platform: ping
-    hosts:
-      jason_phone_ip: 10.0.1.161
-
 zone:
 
   - name: Home

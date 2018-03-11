@@ -17,30 +17,6 @@ automation:
       service: switch.turn_on
       entity_id: switch.entry_light_switch
 
-  - alias: 'Jason home notification (IP)'
-    trigger:
-      platform: state
-      entity_id: device_tracker.jason_phone_ip
-      from: 'not_home'
-      to: 'home'
-    action:
-      service: notify.pushbullet
-      data:
-        title: 'Jason is home (IP)'
-        message: 'Jason is home (IP)'
-
-  - alias: 'Jason away notification (IP)'
-    trigger:
-      platform: state
-      entity_id: device_tracker.jason_phone_ip
-      from: 'home'
-      to: 'not_home'
-    action:
-      service: notify.pushbullet
-      data:
-        title: 'Jason is away (IP)'
-        message: 'Jason is away (IP)'
-
   - alias: 'Jason home notification'
     trigger:
       platform: state

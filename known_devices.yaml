@@ -2,7 +2,7 @@
 kim_phone:
   hide_if_away: false
   icon:
-  mac: 40:4E:36:91:07:70
+  mac: 40:4E:36:92:A9:B3
   name: Kim
   picture:
   track: true
@@ -183,15 +183,6 @@ unknown_15:
   track: false
   vendor: Nintendo Co., Ltd.
 
-unknown_16:
-  hide_if_away: false
-  icon:
-  mac: 40:4E:36:91:07:70
-  name: Unknown
-  picture:
-  track: false
-  vendor: HTC Corporation
-
 unknown_17:
   hide_if_away: false
   icon:
@@ -255,15 +246,6 @@ unknown_23:
   track: false
   vendor: Apple, Inc.
 
-unknown_24:
-  hide_if_away: false
-  icon:
-  mac: 40:4E:36:92:A9:B3
-  name: Unknown
-  picture:
-  track: false
-  vendor: HTC Corporation
-
 unknown_25:
   hide_if_away: false
   icon:
@@ -309,11 +291,11 @@ unknown_29:
   track: false
   vendor: Apple, Inc.
 
-jason_phone_ip:
+unknown_30:
   hide_if_away: false
   icon:
-  mac:
-  name: jason phone ip
-  picture: /local/jason-192x192.jpg
-  track: true
-  vendor:
+  mac: D0:81:7A:7A:A5:5D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
