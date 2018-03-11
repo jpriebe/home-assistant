@@ -1,0 +1,47 @@
+#### get your icons from https://materialdesignicons.com/cheatsheet
+input_boolean:
+  vacation_mode:
+    name: Turn on vacation mode
+    initial: off
+    icon: mdi:beach
+
+#### randomization techniques I've found; note that some do nice stuff like integer
+#### conversion, and some do nice stuff like padding with zeroes.  One uses "{{" and "}}"
+#### as template delimiters, and one uses "{{-" and "-}}".  Needless to say, I'm not sure what
+#### the perfectly "right" way is to do this...
+
+#### delay of 00:01:00 to 02:59:00
+####   delay: '{{ (range(0, 2)|random|int) }}:{{ (range(1, 59)|random|int) }}:00'
+#### delay of 00:01:00 to 00:09:00
+####   delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+#### offset of -00:15:00 to -00:30:00:
+####   offset: "-00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+
+automation:
+  - id: morning_guest_room_on
+    alias: 'Turn the guest room lamp on in the morning'
+    condition:
+    	condition: state
+    	entity_id: input_boolean.vacation_mode
+    	state: 'on'
+    trigger:
+      - platform: sun
+        event: sunrise
+        offset: "-00:{{- ((range(15,30) | random) ~ '').rjust(2, '0') -}}:00"
+    action:
+      - service: switch.turn_on
+        entity_id: switch.guest_room_lamp
+
+  - id: morning_guest_room_off
+    alias: 'Turn the guest room lamp off in the morning'
+    condition:
+    	condition: state
+    	entity_id: input_boolean.vacation_mode
+    	state: 'on'
+    trigger:
+      - platform: sun
+        event: sunrise
+    action:
+      - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.guest_room_lamp

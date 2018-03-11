@@ -1,0 +1,79 @@
+#### get your icons from https://materialdesignicons.com/cheatsheet
+input_boolean:
+
+  flash_fr_lamp:
+    name: Flash family room lamp
+    initial: off
+    icon: mdi:flash-circle
+
+
+#### to flash a lamp, you use two scripts, one to turn on the lamp, and one to turn off the lamp;
+#### the first script turns on the lamp, pauses, then calls the second script, which turns off
+#### the lamp, pauses, and calls the first.  In this way, you can have an infinite loop.  To stop
+#### the flashing, you need to stop both scripts, since you don't know which one is currently 
+#### running.
+
+automation:
+
+- alias: 'flash_fr_lamp_start'
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: input_boolean.flash_fr_lamp
+    to: 'on'
+  action:
+    service: script.turn_on
+    entity_id: script.flash_fr_lamp_on
+
+- alias: 'flash_fr_lamp_stop_on'
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: input_boolean.flash_fr_lamp
+    to: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flash_fr_lamp_on
+
+- alias: 'flash_fr_lamp_stop_off'
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: input_boolean.flash_fr_lamp
+    to: 'off'
+  action:
+    service: script.turn_off
+    entity_id: script.flash_fr_lamp_off
+
+script:
+
+  flash_fr_lamp_on:
+    alias: Flash Room1 On
+    sequence:
+      - alias: Light Room1 On
+        service: homeassistant.turn_on
+        data:
+          entity_id: switch.family_room_lamp_switch
+      - delay:
+          # time for flash light on
+          seconds: 1
+      - alias: loop_lamp
+        service: script.turn_on
+        data:
+          entity_id: script.flash_fr_lamp_off
+
+
+  flash_fr_lamp_off:
+    alias: Flash Room1 Off
+    sequence:
+      - alias: Light Room1 Off
+        service: homeassistant.turn_off
+        data:
+          entity_id: switch.family_room_lamp_switch
+      - delay:
+          # time for flash light off
+          seconds: 1
+      - alias: loop_lamp
+        service: script.turn_on
+        data:
+          entity_id: script.flash_fr_lamp_on
