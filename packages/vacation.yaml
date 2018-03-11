@@ -14,30 +14,36 @@ input_boolean:
 ####   delay: '{{ (range(0, 2)|random|int) }}:{{ (range(1, 59)|random|int) }}:00'
 #### delay of 00:01:00 to 00:09:00
 ####   delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+####
+#### Apparently, "offset" doesn't work the way "delay" does; you can't use the templating syntax.
 #### offset of -00:15:00 to -00:30:00:
-####   offset: "-00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+####   offset: "-00:{{- ((range(15,30) | random) ~ '').rjust(2, '0') -}}:00"  DOES NOT WORK!
+#### But you could just offset by one hour and then delay by 30-45 minutes to get the same effect
 
 automation:
   - id: morning_guest_room_on
     alias: 'Turn the guest room lamp on in the morning'
+    hide_entity: True
     condition:
-    	condition: state
-    	entity_id: input_boolean.vacation_mode
-    	state: 'on'
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
     trigger:
       - platform: sun
         event: sunrise
-        offset: "-00:{{- ((range(15,30) | random) ~ '').rjust(2, '0') -}}:00"
+        offset: "-01:00:00"
     action:
+      - delay: "00:{{- ((range(30,45) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_on
         entity_id: switch.guest_room_lamp
 
   - id: morning_guest_room_off
     alias: 'Turn the guest room lamp off in the morning'
+    hide_entity: True
     condition:
-    	condition: state
-    	entity_id: input_boolean.vacation_mode
-    	state: 'on'
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
     trigger:
       - platform: sun
         event: sunrise

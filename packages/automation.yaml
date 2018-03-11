@@ -4,6 +4,7 @@ automation:
   - id: entry_light_on_when_arriving_home
     alias: "Entry light on when someone gets home"
     initial_state: True
+    hide_entity: True
     trigger:
       platform: state
       entity_id: group.all_devices
@@ -18,6 +19,7 @@ automation:
       entity_id: switch.entry_light_switch
 
   - alias: 'Jason home notification'
+    hide_entity: True
     trigger:
       platform: state
       entity_id: device_tracker.jason_phone
@@ -30,6 +32,7 @@ automation:
         message: 'Jason is home'
 
   - alias: 'Jason away notification'
+    hide_entity: True
     trigger:
       platform: state
       entity_id: device_tracker.jason_phone
@@ -42,6 +45,7 @@ automation:
         message: 'Jason is away'
 
   - id: night_dark_theme
+    hide_entity: True
     alias: 'Change to a dark theme at night'
     trigger:
       - platform: sun
@@ -52,6 +56,7 @@ automation:
         name: midnight
 
   - id: day_light_theme
+    hide_entity: True
     alias: 'Change to a light theme during the day'
     trigger:
       - platform: sun
@@ -63,6 +68,7 @@ automation:
 
 
   - id: night_guest_room_on
+    hide_entity: True
     alias: 'Turn the guest room lamp on at night'
     trigger:
       - platform: sun
@@ -73,6 +79,7 @@ automation:
         entity_id: switch.guest_room_lamp
 
   - id: night_guest_room_off
+    hide_entity: True
     alias: 'Turn the guest room lamp off about an hour after sunset'
     trigger:
       - platform: sun
@@ -83,6 +90,7 @@ automation:
         entity_id: switch.guest_room_lamp
 
   - id: night_porch_on
+    hide_entity: True
     alias: 'Turn the porch light on at night'
     trigger:
       - platform: sun
@@ -93,6 +101,7 @@ automation:
         entity_id: switch.front_porch_switch
 
   - id: night_porch_off
+    hide_entity: True
     alias: 'Turn the porch light off at night'
     trigger:
       - platform: time
@@ -103,6 +112,7 @@ automation:
         entity_id: switch.front_porch_switch
 
   - id: morning_porch_on
+    hide_entity: True
     alias: 'Turn the porch light on in the morning'
     trigger:
       - platform: time
@@ -117,6 +127,7 @@ automation:
         entity_id: switch.front_porch_switch
 
   - id: morning_porch_off
+    hide_entity: True
     alias: 'Turn the porch light off in the morning'
     trigger:
       - platform: sun
