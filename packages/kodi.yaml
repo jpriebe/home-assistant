@@ -1,3 +1,4 @@
 media_player:
   - platform: kodi
+    name: Family Room Kodi
     host: 10.0.1.102
