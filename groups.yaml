@@ -3,9 +3,18 @@ default_view:
   icon: mdi:home
   entities:
    - group.people
+   - group.weather
    - group.downstairs
    - group.upstairs
    - group.outside
+
+weather:
+  name: Weather
+  entities:
+    - sun.sun
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_minutely_summary
+    - sensor.dark_sky_hourly_summary
 
 upstairs:
   name: Upstairs
@@ -41,9 +50,16 @@ scenes:
   entities:
     - scene.bedtime
 
-tools:
-  name: Tools
+utilities:
+  name: Utilities
   view: yes
   icon: mdi:wrench
   entities:
+    - group.tools
+
+tools:
+  name: Tools
+  icon: mdi:wrench
+  entities:
     - input_boolean.vacation_mode
+    - input_boolean.flash_fr_lamp
