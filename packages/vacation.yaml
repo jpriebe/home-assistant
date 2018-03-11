@@ -2,7 +2,6 @@
 input_boolean:
   vacation_mode:
     name: Turn on vacation mode
-    initial: off
     icon: mdi:beach
 
 #### randomization techniques I've found; note that some do nice stuff like integer
