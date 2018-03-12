@@ -1,4 +1,2 @@
 media_player:
   - platform: cast
-    name: Family Room Chromecast
-    host: 10.0.1.107
