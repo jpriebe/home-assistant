@@ -299,3 +299,39 @@ unknown_30:
   picture:
   track: false
   vendor: Apple, Inc.
+
+unknown_16:
+  hide_if_away: false
+  icon:
+  mac: 70:14:A6:46:FA:79
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_24:
+  hide_if_away: false
+  icon:
+  mac: 28:A0:2B:D0:EB:B5
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_31:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:95:8E:4C
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_32:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:95:32:8D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.
