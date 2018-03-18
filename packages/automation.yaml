@@ -22,7 +22,7 @@ automation:
     hide_entity: True
     trigger:
       platform: state
-      entity_id: device_tracker.jason_phone
+      entity_id: group.jason
       from: 'not_home'
       to: 'home'
     action:
@@ -35,7 +35,7 @@ automation:
     hide_entity: True
     trigger:
       platform: state
-      entity_id: device_tracker.jason_phone
+      entity_id: group.jason
       from: 'home'
       to: 'not_home'
     action:
