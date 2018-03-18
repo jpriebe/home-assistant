@@ -22,7 +22,6 @@ input_boolean:
 automation:
   - id: morning_guest_room_on
     alias: 'Turn the guest room lamp on in the morning'
-    hide_entity: True
     condition:
       condition: state
       entity_id: input_boolean.vacation_mode
@@ -32,13 +31,12 @@ automation:
         event: sunrise
         offset: "-01:00:00"
     action:
-      - delay: "00:{{- ((range(30,45) | random) ~ '').rjust(2, '0') -}}:00"
+      - delay: "00:{{- ((range(30,45) | random) ~ '') -}}:00"
       - service: switch.turn_on
         entity_id: switch.sonoff4
 
   - id: morning_guest_room_off
     alias: 'Turn the guest room lamp off in the morning'
-    hide_entity: True
     condition:
       condition: state
       entity_id: input_boolean.vacation_mode
@@ -50,3 +48,107 @@ automation:
       - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_off
         entity_id: switch.sonoff4
+
+  - id: night_family_room_lamp_on
+    alias: 'Turn the family room lamp on at night'
+    trigger:
+      - platform: sun
+        event: sunset
+    action:
+      - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_on
+        entity_id: switch.family_room_lamp_switch
+
+  - id: night_family_room_lamp_off
+    alias: 'Turn the family room lamp off at night'
+    trigger:
+      - platform: time
+        at: '19:30:00'
+    action:
+      - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.family_room_lamp_switch
+
+  - id: evening_living_room_on
+    alias: 'Turn the living room lamp on in the evening'
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '18:50:00'
+    action:
+      - delay: "00:{{- ((range(1,20) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_on
+        entity_id: switch.living_room_lamp
+
+  - id: evening_living_room_off
+    alias: 'Turn the living room lamp off at night'
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '22:00:00'
+    action:
+      - delay: "00:{{- ((range(10,20) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.living_room_lamp
+
+  - id: night_nates_room_on
+    alias: "Turn Nate's bedroom lamp on at night"
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '21:00:00'
+    action:
+      - delay: "00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_on
+        entity_id: switch.nates_room
+
+  - id: night_nates_room_off
+    alias: "Turn Nate's bedroom lamp off at night"
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '22:15:00'
+    action:
+      - delay: "00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.nates_room
+
+  - id: night_jasons_lamp_on
+    alias: "Turn Jason's bedroom lamp on at night"
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '21:30:00'
+    action:
+      - delay: "00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_on
+        entity_id: switch.sonoff2
+
+  - id: night_jasons_lamp_off
+    alias: "Turn Jason's bedroom lamp off at night"
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
+    trigger:
+      - platform: time
+        at: '22:15:00'
+    action:
+      - delay: "00:{{- ((range(1,30) | random) ~ '').rjust(2, '0') -}}:00"
+      - service: switch.turn_off
+        entity_id: switch.sonoff2
