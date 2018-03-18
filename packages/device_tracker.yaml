@@ -1,4 +1,7 @@
 device_tracker:
+  - platform: bluetooth_tracker
+    interval_seconds: 5
+    consider_home: 180
 
   - platform: tplink
     host: 10.0.1.2
@@ -8,10 +11,21 @@ device_tracker:
     new_device_defaults:
       track_new_devices: false
 
-zone:
+group:
+  jason:
+    name: Jason
+    entities:
+      - device_tracker.jason_phone
+      - device_tracker.jason_phone_bt
 
+zone:
   - name: Home
     latitude: !secret latitude
     longitude: !secret longitude
     radius: 25
     icon: mdi:account-multiple
+
+homeassistant:
+  customize:
+    group.jason:
+      entity_picture: /local/jason-192x192.jpg

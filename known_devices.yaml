@@ -10,13 +10,21 @@ kim_phone:
 
 jason_phone:
   hide_if_away: false
-  icon:
+  icon: mdi:wifi
   mac: 60:F1:89:62:B3:BF
-  name: Jason
-  picture: /local/jason-192x192.jpg
+  name: Jason's Phone (wifi)
   gravatar: 
   track: true
   vendor: Murata Manufacturing Co., Ltd.
+
+jason_phone_bt:
+  hide_if_away: false
+  icon: mdi:bluetooth
+  mac: BT_94:76:B7:06:7F:4E
+  name: Jason's Phone (bt)
+  picture:
+  track: true
+  vendor: Samsung Electronics Co.,Ltd
 
 abby_phone:
   hide_if_away: false
@@ -335,3 +343,4 @@ unknown_32:
   picture:
   track: false
   vendor: Espressif Inc.
+

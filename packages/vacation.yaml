@@ -51,6 +51,10 @@ automation:
 
   - id: night_family_room_lamp_on
     alias: 'Turn the family room lamp on at night'
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
     trigger:
       - platform: sun
         event: sunset
@@ -61,6 +65,10 @@ automation:
 
   - id: night_family_room_lamp_off
     alias: 'Turn the family room lamp off at night'
+    condition:
+      condition: state
+      entity_id: input_boolean.vacation_mode
+      state: 'on'
     trigger:
       - platform: time
         at: '19:30:00'
