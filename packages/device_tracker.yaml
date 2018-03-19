@@ -18,6 +18,18 @@ group:
       - device_tracker.jason_phone
       - device_tracker.jason_phone_bt
 
+  kim:
+    name: Kim
+    entities:
+      - device_tracker.kim_phone
+      - device_tracker.kim_phone_bt
+
+  abby:
+    name: Abby
+    entities:
+      - device_tracker.abby_phone
+      - device_tracker.abby_phone_bt
+
 zone:
   - name: Home
     latitude: !secret latitude
@@ -29,3 +41,7 @@ homeassistant:
   customize:
     group.jason:
       entity_picture: /local/jason-192x192.jpg
+    group.kim:
+      entity_picture: /local/kim-192x192.jpg
+    group.abby:
+      entity_picture: /local/abby-192x192.jpg

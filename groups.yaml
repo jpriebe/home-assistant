@@ -49,8 +49,8 @@ people:
   name: Peeps
   entities:
     - group.jason
-    - device_tracker.kim_phone
-    - device_tracker.abby_phone
+    - group.kim
+    - group.abby
 
 
 scenes:

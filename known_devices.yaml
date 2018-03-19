@@ -3,7 +3,16 @@ kim_phone:
   hide_if_away: false
   icon:
   mac: 40:4E:36:92:A9:B3
-  name: Kim
+  name: Kim's Phone (wifi)
+  picture:
+  track: true
+  vendor: HTC Corporation
+
+kim_phone_bt:
+  hide_if_away: false
+  icon:
+  mac: BT_40:4E:36:BC:24:2C
+  name: Kim's Phone (bt)
   picture:
   track: true
   vendor: HTC Corporation
@@ -30,9 +39,18 @@ abby_phone:
   hide_if_away: false
   icon:
   mac: f0:d7:aa:d7:f2:63
-  name: Abby
+  name: Abby's Phone (wifi)
   picture:
   gravatar: 
+  track: true
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+abby_phone_bt:
+  hide_if_away: false
+  icon:
+  mac: BT_F0:D7:AA:D7:F2:62
+  name: Abby's Phone (bt)
+  picture:
   track: true
   vendor: Motorola Mobility LLC, a Lenovo Company
 
@@ -343,4 +361,6 @@ unknown_32:
   picture:
   track: false
   vendor: Espressif Inc.
+
+
 
