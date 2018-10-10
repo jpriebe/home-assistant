@@ -1,5 +1,11 @@
 - name: Bedtime
   entities:
-    switch.sonoff1: on
+    switch.sound_soother: on
     switch.sonoff2: off
     switch.sonoff3: off
+
+- name: Morning
+  entities:
+    switch.sound_soother: off
+    switch.sonoff2: on
+    switch.sonoff3: on

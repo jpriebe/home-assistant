@@ -1,7 +1,7 @@
 homeassistant:
   customize:
     switch.sonoff1:
-      friendly_name: "Sound Soother"
+      friendly_name: "Not in use"
     switch.sonoff2:
       friendly_name: "Jason's lamp"
     switch.sonoff3:

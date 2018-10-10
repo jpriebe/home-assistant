@@ -1,7 +1,4 @@
 device_tracker:
-  - platform: bluetooth_tracker
-    interval_seconds: 5
-    consider_home: 180
 
   - platform: tplink
     host: 10.0.1.2
@@ -16,19 +13,16 @@ group:
     name: Jason
     entities:
       - device_tracker.jason_phone
-      - device_tracker.jason_phone_bt
 
   kim:
     name: Kim
     entities:
       - device_tracker.kim_phone
-      - device_tracker.kim_phone_bt
 
   abby:
     name: Abby
     entities:
       - device_tracker.abby_phone
-      - device_tracker.abby_phone_bt
 
 zone:
   - name: Home

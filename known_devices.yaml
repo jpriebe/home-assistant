@@ -364,3 +364,210 @@ unknown_32:
 
 
 
+
+unknown_33:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:AB:8B:CA
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_34:
+  hide_if_away: false
+  icon:
+  mac: 98:00:C6:73:A9:EE
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_35:
+  hide_if_away: false
+  icon:
+  mac: A8:96:75:B1:FC:65
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_36:
+  hide_if_away: false
+  icon:
+  mac: 30:96:FB:26:AC:29
+  name: Unknown
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+unknown_37:
+  hide_if_away: false
+  icon:
+  mac: 9C:5C:F9:2A:2C:69
+  name: Unknown
+  picture:
+  track: false
+  vendor: Sony Mobile Communications AB
+
+unknown_38:
+  hide_if_away: false
+  icon:
+  mac: DC:44:B6:8C:BD:B4
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_39:
+  hide_if_away: false
+  icon:
+  mac: B4:18:D1:BA:10:C1
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_40:
+  hide_if_away: false
+  icon:
+  mac: A4:D1:D2:23:F1:61
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_41:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:24:04:71:04
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_42:
+  hide_if_away: false
+  icon:
+  mac: F0:D7:AA:8D:ED:DE
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_43:
+  hide_if_away: false
+  icon:
+  mac: F8:63:3F:E4:13:44
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_44:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:B7:A4:F7
+  name: Unknown
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+unknown_45:
+  hide_if_away: false
+  icon:
+  mac: 68:37:E9:1A:C0:89
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_46:
+  hide_if_away: false
+  icon:
+  mac: 94:65:9C:F3:6A:DD
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_47:
+  hide_if_away: false
+  icon:
+  mac: 48:BF:6B:DA:78:72
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_48:
+  hide_if_away: false
+  icon:
+  mac: 94:B8:6D:87:46:19
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_49:
+  hide_if_away: false
+  icon:
+  mac: 38:CA:DA:4F:08:24
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_50:
+  hide_if_away: false
+  icon:
+  mac: D8:5B:2A:AB:A0:2F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+unknown_51:
+  hide_if_away: false
+  icon:
+  mac: D0:77:14:38:CF:E9
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_52:
+  hide_if_away: false
+  icon:
+  mac: 54:26:96:3C:8E:98
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_53:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:54:2C:85
+  name: Unknown
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+unknown_54:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:0F:39:7E
+  name: Unknown
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+unknown_55:
+  hide_if_away: false
+  icon:
+  mac: 3C:15:C2:CC:0A:50
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.

@@ -6,7 +6,7 @@ switch:
     device_id: 05200019ecfabc958e4c
 
   - platform: tuya
-    name: Nate's Room
+    name: Sound Soother
     host: 10.0.1.119
     local_key: 1544808ec6cd2534
     device_id: 05200019ecfabc95328d
