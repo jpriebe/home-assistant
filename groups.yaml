@@ -26,10 +26,9 @@ weather:
 upstairs:
   name: Upstairs
   entities: 
-    - switch.sonoff1
     - switch.sonoff2
     - switch.sonoff3
-    - switch.nates_room
+    - switch.sound_soother
 
 outside:
   name: Outside
