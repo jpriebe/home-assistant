@@ -58,6 +58,7 @@ scenes:
   icon: mdi:image
   entities:
     - scene.bedtime
+    - scene.morning
 
 utilities:
   name: Utilities
