@@ -22,8 +22,6 @@ frontend:
 config:
 
 http:
-  # Secrets are defined in the file secrets.yaml
-  api_password: !secret http_password
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
   base_url: https://priebe-home.duckdns.org:8123
   ssl_certificate: /home/homeassistant/.homeassistant/certificate.pem
@@ -64,6 +62,8 @@ tts:
 cloud:
 
 mqtt:
+  # Secrets are defined in the file secrets.yaml
+  password: !secret mqtt_password
 
 scene: !include scenes.yaml
 group: !include groups.yaml

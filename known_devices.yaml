@@ -20,37 +20,19 @@ kim_phone_bt:
 jason_phone:
   hide_if_away: false
   icon: mdi:wifi
-  mac: 60:F1:89:62:B3:BF
+  mac: 3C:28:6D:15:30:6A
   name: Jason's Phone (wifi)
   gravatar: 
   track: true
   vendor: Murata Manufacturing Co., Ltd.
 
-jason_phone_bt:
-  hide_if_away: false
-  icon: mdi:bluetooth
-  mac: BT_94:76:B7:06:7F:4E
-  name: Jason's Phone (bt)
-  picture:
-  track: true
-  vendor: Samsung Electronics Co.,Ltd
-
 abby_phone:
   hide_if_away: false
   icon:
-  mac: f0:d7:aa:d7:f2:63
+  mac: BC:FF:EB:3F:42:1C
   name: Abby's Phone (wifi)
   picture:
   gravatar: 
-  track: true
-  vendor: Motorola Mobility LLC, a Lenovo Company
-
-abby_phone_bt:
-  hide_if_away: false
-  icon:
-  mac: BT_F0:D7:AA:D7:F2:62
-  name: Abby's Phone (bt)
-  picture:
   track: true
   vendor: Motorola Mobility LLC, a Lenovo Company
 
