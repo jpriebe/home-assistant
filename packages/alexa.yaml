@@ -20,3 +20,6 @@ alexa:
       switch.xmas_lights_switch:
         name: Xmas lights
         description: Xmas lights outlet (receptacle in guest room)
+      switch.back_porch_lamp:
+        name: Back porch
+        description: Back porch lamp
