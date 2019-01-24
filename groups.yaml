@@ -30,11 +30,18 @@ upstairs:
     - switch.sonoff3
     - switch.sound_soother
 
+bedroom_lamps:
+  name: Bedroom Lamps
+  entities: 
+    - switch.sonoff2
+    - switch.sonoff3
+
 outside:
   name: Outside
   entities: 
     - switch.front_porch_switch
     - switch.xmas_lights_switch
+    - switch.back_porch_lamp
 
 downstairs:
   name: Downstairs
