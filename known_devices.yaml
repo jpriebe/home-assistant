@@ -24,7 +24,6 @@ jason_phone:
   name: Jason's Phone (wifi)
   gravatar: 
   track: true
-  vendor: Murata Manufacturing Co., Ltd.
 
 abby_phone:
   hide_if_away: false
