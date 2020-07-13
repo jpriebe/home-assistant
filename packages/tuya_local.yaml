@@ -1,14 +1,16 @@
 switch:
+
+#### note: tuya 1 and tuya 2 didn't seem to survive the change in wifi routers...
 #### tuya1
   - platform: tuya_local
-    name: Living Room Lamp
+    name: tuya1
     host: 10.0.1.118
     local_key: 8cad5e456b85a559
     device_id: 05200019ecfabc958e4c
 
 #### tuya2
   - platform: tuya_local
-    name: Sound Soother
+    name: tuya2
     host: 10.0.1.119
     local_key: 1544808ec6cd2534
     device_id: 05200019ecfabc95328d
@@ -25,14 +27,14 @@ switch:
 
 #### tuya4
   - platform: tuya_local
-    name: tuya4
+    name: Living Room Lamp
     host: 10.0.1.122
     local_key: 56cfb30a60727aa7
     device_id: 53023030840d8e599414
 
 #### tuya5
   - platform: tuya_local
-    name: tuya5
+    name: Sound Soother
     host: 10.0.1.123
     local_key: 6bbdda01b57a01e5
     device_id: 53023030dc4f22ff65d8
