@@ -40,7 +40,7 @@ outside:
   name: Outside
   entities: 
     - switch.front_porch_switch
-    - switch.xmas_lights_switch
+    - switch.holiday_lights_1
     - switch.back_porch_lamp
 
 downstairs:

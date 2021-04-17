@@ -72,3 +72,6 @@ script: !include scripts.yaml
 
 logger:
   default: debug
+
+recorder:
+  purge_keep_days: 30

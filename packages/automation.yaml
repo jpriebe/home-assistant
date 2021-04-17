@@ -137,7 +137,7 @@ automation:
       - service: switch.turn_off
         entity_id: switch.front_porch_switch
 
-  - id: night_xmas_lights_on
+  - id: night_holiday_lights_on
     hide_entity: True
     alias: 'Turn the xmas lights on at night'
     trigger:
@@ -146,9 +146,9 @@ automation:
     action:
       - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_on
-        entity_id: switch.xmas_lights_switch
+        entity_id: switch.holiday_lights_1
 
-  - id: night_xmas_lights_off
+  - id: night_holiday_lights_off
     hide_entity: True
     alias: 'Turn the xmas lights off at night'
     trigger:
@@ -157,9 +157,9 @@ automation:
     action:
       - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_off
-        entity_id: switch.xmas_lights_switch
+        entity_id: switch.holiday_lights_1
 
-  - id: morning_xmas_lights_on
+  - id: morning_holiday_lights_on
     hide_entity: True
     alias: 'Turn the xmas lights on in the morning'
     trigger:
@@ -172,9 +172,9 @@ automation:
     action:
       - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_on
-        entity_id: switch.xmas_lights_switch
+        entity_id: switch.holiday_lights_1
 
-  - id: morning_xmas_lights_off
+  - id: morning_holiday_lights_off
     hide_entity: True
     alias: 'Turn the xmas lights off in the morning'
     trigger:
@@ -183,7 +183,7 @@ automation:
     action:
       - delay: "00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00"
       - service: switch.turn_off
-        entity_id: switch.xmas_lights_switch
+        entity_id: switch.holiday_lights_1
 
 
   - id: night_back_porch_on

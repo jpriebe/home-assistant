@@ -17,9 +17,9 @@ alexa:
       switch.front_porch_switch:
         name: Front porch
         description: Front porch and walkway lights
-      switch.xmas_lights_switch:
-        name: Xmas lights
-        description: Xmas lights outlet (receptacle in guest room)
+      switch.holiday_lights_1:
+        name: Holiday lights
+        description: Holiday lights outlet (outdoor z-wave switch)
       switch.back_porch_lamp:
         name: Back porch
         description: Back porch lamp

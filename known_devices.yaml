@@ -62,3 +62,781 @@ libreelec______:
   track: false
   vendor: Intel Corporate
 
+unknown_13:
+  hide_if_away: false
+  icon:
+  mac: 60:5B:B4:20:B8:BF
+  name: Unknown
+  picture:
+  track: false
+  vendor: AzureWave Technology Inc.
+
+unknown_7:
+  hide_if_away: false
+  icon:
+  mac: 74:75:48:4C:58:1F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_3:
+  hide_if_away: false
+  icon:
+  mac: B8:27:EB:9F:34:3E
+  name: Unknown
+  picture:
+  track: false
+  vendor: Raspberry Pi Foundation
+
+
+brwacd1b88cdab0:
+  hide_if_away: false
+  icon:
+  mac: AC:D1:B8:8C:DA:B0
+  name: BRWACD1B88CDAB0
+  picture:
+  track: false
+  vendor: Hon Hai Precision Ind. Co.,Ltd.
+
+unknown_5:
+  hide_if_away: false
+  icon:
+  mac: 34:23:BA:FC:B9:D7
+  name: Unknown
+  picture:
+  track: false
+  vendor: SAMSUNG ELECTRO-MECHANICS(THAILAND)
+
+
+unknown_4:
+  hide_if_away: false
+  icon:
+  mac: 74:81:14:97:0A:2C
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_10:
+  hide_if_away: false
+  icon:
+  mac: 00:11:D9:A2:9B:D8
+  name: Unknown
+  picture:
+  track: false
+  vendor: TiVo
+
+unknown_8:
+  hide_if_away: false
+  icon:
+  mac: C8:BC:C8:47:88:E1
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_12:
+  hide_if_away: false
+  icon:
+  mac: A4:77:33:02:B6:DB
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown:
+  hide_if_away: false
+  icon:
+  mac: 1C:4D:70:A6:AB:3F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_6:
+  hide_if_away: false
+  icon:
+  mac: 7C:D1:C3:8C:CA:BC
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_9:
+  hide_if_away: false
+  icon:
+  mac: E4:3E:D7:2F:BE:EC
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_14:
+  hide_if_away: false
+  icon:
+  mac: AC:63:BE:CB:3B:8A
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_15:
+  hide_if_away: false
+  icon:
+  mac: 58:BD:A3:EF:D7:61
+  name: Unknown
+  picture:
+  track: false
+  vendor: Nintendo Co., Ltd.
+
+unknown_17:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:8B:04:1C
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_18:
+  hide_if_away: false
+  icon:
+  mac: 68:C6:3A:95:24:6D
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_19:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:07:71:32
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+unknown_20:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:07:80:B2
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+unknown_21:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:DD:E5:CB
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_22:
+  hide_if_away: false
+  icon:
+  mac: 00:A0:96:81:BA:FF
+  name: Unknown
+  picture:
+  track: false
+  vendor: MITSUMI ELECTRIC CO.,LTD.
+
+unknown_23:
+  hide_if_away: false
+  icon:
+  mac: 00:56:CD:82:96:D4
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_25:
+  hide_if_away: false
+  icon:
+  mac: FC:F1:52:1B:75:76
+  name: Unknown
+  picture:
+  track: false
+  vendor: Sony Corporation
+
+unknown_26:
+  hide_if_away: false
+  icon:
+  mac: 18:2A:7B:CD:4F:8D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Nintendo Co., Ltd.
+
+unknown_27:
+  hide_if_away: false
+  icon:
+  mac: 18:65:90:D6:FC:A7
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_28:
+  hide_if_away: false
+  icon:
+  mac: B0:72:BF:57:CB:13
+  name: Unknown
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+unknown_29:
+  hide_if_away: false
+  icon:
+  mac: C8:E0:EB:A6:A9:7F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_30:
+  hide_if_away: false
+  icon:
+  mac: D0:81:7A:7A:A5:5D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_16:
+  hide_if_away: false
+  icon:
+  mac: 70:14:A6:46:FA:79
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_24:
+  hide_if_away: false
+  icon:
+  mac: 28:A0:2B:D0:EB:B5
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_31:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:95:8E:4C
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_32:
+  hide_if_away: false
+  icon:
+  mac: EC:FA:BC:95:32:8D
+  name: Unknown
+  picture:
+  track: false
+  vendor: Espressif Inc.
+
+
+
+
+unknown_33:
+  hide_if_away: false
+  icon:
+  mac: 34:D2:70:AB:8B:CA
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_34:
+  hide_if_away: false
+  icon:
+  mac: 98:00:C6:73:A9:EE
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_35:
+  hide_if_away: false
+  icon:
+  mac: A8:96:75:B1:FC:65
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_36:
+  hide_if_away: false
+  icon:
+  mac: 30:96:FB:26:AC:29
+  name: Unknown
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+unknown_37:
+  hide_if_away: false
+  icon:
+  mac: 9C:5C:F9:2A:2C:69
+  name: Unknown
+  picture:
+  track: false
+  vendor: Sony Mobile Communications AB
+
+unknown_38:
+  hide_if_away: false
+  icon:
+  mac: DC:44:B6:8C:BD:B4
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_39:
+  hide_if_away: false
+  icon:
+  mac: B4:18:D1:BA:10:C1
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_40:
+  hide_if_away: false
+  icon:
+  mac: A4:D1:D2:23:F1:61
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_41:
+  hide_if_away: false
+  icon:
+  mac: F4:F5:24:04:71:04
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_42:
+  hide_if_away: false
+  icon:
+  mac: F0:D7:AA:8D:ED:DE
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_43:
+  hide_if_away: false
+  icon:
+  mac: F8:63:3F:E4:13:44
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_44:
+  hide_if_away: false
+  icon:
+  mac: A0:CC:2B:B7:A4:F7
+  name: Unknown
+  picture:
+  track: false
+  vendor: Murata Manufacturing Co., Ltd.
+
+unknown_45:
+  hide_if_away: false
+  icon:
+  mac: 68:37:E9:1A:C0:89
+  name: Unknown
+  picture:
+  track: false
+  vendor: Amazon Technologies Inc.
+
+unknown_46:
+  hide_if_away: false
+  icon:
+  mac: 94:65:9C:F3:6A:DD
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_47:
+  hide_if_away: false
+  icon:
+  mac: 48:BF:6B:DA:78:72
+  name: Unknown
+  picture:
+  track: false
+  vendor: unknown
+
+unknown_48:
+  hide_if_away: false
+  icon:
+  mac: 94:B8:6D:87:46:19
+  name: Unknown
+  picture:
+  track: false
+  vendor: Intel Corporate
+
+unknown_49:
+  hide_if_away: false
+  icon:
+  mac: 38:CA:DA:4F:08:24
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_50:
+  hide_if_away: false
+  icon:
+  mac: D8:5B:2A:AB:A0:2F
+  name: Unknown
+  picture:
+  track: false
+  vendor: Samsung Electronics Co.,Ltd
+
+unknown_51:
+  hide_if_away: false
+  icon:
+  mac: D0:77:14:38:CF:E9
+  name: Unknown
+  picture:
+  track: false
+  vendor: Motorola Mobility LLC, a Lenovo Company
+
+unknown_52:
+  hide_if_away: false
+  icon:
+  mac: 54:26:96:3C:8E:98
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+unknown_53:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:54:2C:85
+  name: Unknown
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+unknown_54:
+  hide_if_away: false
+  icon:
+  mac: C8:3A:6B:0F:39:7E
+  name: Unknown
+  picture:
+  track: false
+  vendor: Roku, Inc
+
+unknown_55:
+  hide_if_away: false
+  icon:
+  mac: 3C:15:C2:CC:0A:50
+  name: Unknown
+  picture:
+  track: false
+  vendor: Apple, Inc.
+
+someonespc:
+  hide_if_away: false
+  icon:
+  mac: 98:00:C6:9E:11:C0
+  name: Someones-PC
+  picture:
+  track: false
+
+toddcoward:
+  hide_if_away: false
+  icon:
+  mac: B8:63:4D:7B:BD:27
+  name: Todd-Coward
+  picture:
+  track: false
+
+android4719ddc5a1ad37eb:
+  hide_if_away: false
+  icon:
+  mac: F0:D7:AA:D7:F2:63
+  name: android-4719ddc5a1ad37eb
+  picture:
+  track: false
+
+unknown_56:
+  hide_if_away: false
+  icon:
+  mac: 58:00:E3:A5:57:A1
+  name: Unknown
+  picture:
+  track: false
+
+esp_599414:
+  hide_if_away: false
+  icon:
+  mac: 84:0D:8E:59:94:14
+  name: ESP 599414
+  picture:
+  track: false
+
+esp_ff65d8:
+  hide_if_away: false
+  icon:
+  mac: DC:4F:22:FF:65:D8
+  name: ESP FF65D8
+  picture:
+  track: false
+
+esp_5e2584:
+  hide_if_away: false
+  icon:
+  mac: 84:0D:8E:5E:25:84
+  name: ESP 5E2584
+  picture:
+  track: false
+
+unknown_57:
+  hide_if_away: false
+  icon:
+  mac: A4:34:D9:6F:20:A7
+  name: Unknown
+  picture:
+  track: false
+
+unknown_58:
+  hide_if_away: false
+  icon:
+  mac: 5C:1D:D9:B2:C9:D2
+  name: Unknown
+  picture:
+  track: false
+
+unknown_59:
+  hide_if_away: false
+  icon:
+  mac: 44:07:0B:88:B4:94
+  name: Unknown
+  picture:
+  track: false
+
+davidsipad2:
+  hide_if_away: false
+  icon:
+  mac: 78:88:6D:CA:79:44
+  name: Davids-iPad-2
+  picture:
+  track: false
+
+unknown_60:
+  hide_if_away: false
+  icon:
+  mac: 34:E1:2D:D2:3F:48
+  name: Unknown
+  picture:
+  track: false
+
+unknown_61:
+  hide_if_away: false
+  icon:
+  mac: 58:D9:C3:67:5D:AD
+  name: Unknown
+  picture:
+  track: false
+
+mlc218:
+  hide_if_away: false
+  icon:
+  mac: 38:F9:D3:95:DF:42
+  name: mlc218
+  picture:
+  track: false
+
+unknown_62:
+  hide_if_away: false
+  icon:
+  mac: 00:3D:E8:EE:87:A8
+  name: Unknown
+  picture:
+  track: false
+
+unknown_63:
+  hide_if_away: false
+  icon:
+  mac: BC:98:DF:CD:5F:B1
+  name: Unknown
+  picture:
+  track: false
+
+unknown_64:
+  hide_if_away: false
+  icon:
+  mac: 38:78:62:E8:3D:96
+  name: Unknown
+  picture:
+  track: false
+
+desktop_in78gdr:
+  hide_if_away: false
+  icon:
+  mac: 98:3B:8F:19:0C:21
+  name: DESKTOP-IN78GDR
+  picture:
+  track: false
+
+unknown_65:
+  hide_if_away: false
+  icon:
+  mac: 40:4E:36:E6:F3:EB
+  name: Unknown
+  picture:
+  track: false
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: 90:DD:5D:6E:1A:52
+  name: iPhone
+  picture:
+  track: false
+
+iphonexr:
+  hide_if_away: false
+  icon:
+  mac: 74:B5:87:54:8C:67
+  name: iPhonexr
+  picture:
+  track: false
+
+iphone_2:
+  hide_if_away: false
+  icon:
+  mac: EC:2C:E2:16:B7:DB
+  name: iPhone-2
+  picture:
+  track: false
+
+unknown_66:
+  hide_if_away: false
+  icon:
+  mac: 10:30:25:D2:FD:64
+  name: Unknown
+  picture:
+  track: false
+
+hp_laptop:
+  hide_if_away: false
+  icon:
+  mac: 30:10:B3:0E:95:22
+  name: HP Laptop
+  picture:
+  track: false
+
+unknown_67:
+  hide_if_away: false
+  icon:
+  mac: 98:41:5C:AA:8E:AC
+  name: Unknown
+  picture:
+  track: false
+
+amazon_e8db397a4:
+  hide_if_away: false
+  icon:
+  mac: 0C:EE:99:5E:31:AE
+  name: amazon-e8db397a4
+  picture:
+  track: false
+
+todd_coward:
+  hide_if_away: false
+  icon:
+  mac: 30:57:14:E9:D8:71
+  name: Todd-Coward
+  picture:
+  track: false
+
+espressif:
+  hide_if_away: false
+  icon:
+  mac: 4C:11:AE:70:F2:98
+  name: espressif
+  picture:
+  track: false
+
+stdyabrd_76d768:
+  hide_if_away: false
+  icon:
+  mac: 60:F2:62:41:49:25
+  name: STDYABRD-76D768
+  picture:
+  track: false
+
+unknown_68:
+  hide_if_away: false
+  icon:
+  mac: 86:07:85:99:22:00
+  name: Unknown
+  picture:
+  track: false
+
+stdyabrd_7284be:
+  hide_if_away: false
+  icon:
+  mac: 60:F2:62:41:FC:F8
+  name: STDYABRD-7284BE
+  picture:
+  track: false
+
+unknown_69:
+  hide_if_away: false
+  icon:
+  mac: 42:26:06:F6:51:96
+  name: Unknown
+  picture:
+  track: false
+
+unknown_70:
+  hide_if_away: false
+  icon:
+  mac: A2:53:32:F9:AA:58
+  name: Unknown
+  picture:
+  track: false
+
+lyric_24b937:
+  hide_if_away: false
+  icon:
+  mac: B8:2C:A0:24:B9:37
+  name: Lyric-24B937
+  picture:
+  track: false
+
+unknown_71:
+  hide_if_away: false
+  icon:
+  mac: A4:83:E7:6D:72:12
+  name: Unknown
+  picture:
+  track: false
+
+unknown_72:
+  hide_if_away: false
+  icon:
+  mac: 74:58:F3:26:70:5F
+  name: Unknown
+  picture:
+  track: false
