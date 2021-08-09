@@ -1,12 +1,9 @@
 device_tracker:
 
-  - platform: tplink
+  - platform: netgear
     host: 10.0.1.1
-    username: !secret archer_username
-    password: !secret archer_password
-    track_new_devices: false
-    new_device_defaults:
-      track_new_devices: false
+    username: !secret orbi_username
+    password: !secret orbi_password
 
 group:
   jason:
