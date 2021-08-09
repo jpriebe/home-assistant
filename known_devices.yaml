@@ -1,39 +1,11 @@
 
-kim_phone:
-  hide_if_away: false
-  icon:
-  mac: 40:4E:36:92:A9:B3
-  name: Kim's Phone (wifi)
-  picture:
-  track: true
-  vendor: HTC Corporation
-
-kim_phone_bt:
-  hide_if_away: false
-  icon:
-  mac: BT_40:4E:36:BC:24:2C
-  name: Kim's Phone (bt)
-  picture:
-  track: true
-  vendor: HTC Corporation
-
 jason_phone:
   hide_if_away: false
   icon: mdi:wifi
-  mac: 58:d9:c3:67:5d:ad
+  mac: 0e:4f:e9:31:bd:a0
   name: Jason's Phone (wifi)
   gravatar: 
   track: true
-
-abby_phone:
-  hide_if_away: false
-  icon:
-  mac: BC:FF:EB:3F:42:1C
-  name: Abby's Phone (wifi)
-  picture:
-  gravatar: 
-  track: true
-  vendor: Motorola Mobility LLC, a Lenovo Company
 
 unknown_11:
   hide_if_away: false
@@ -569,14 +541,6 @@ toddcoward:
   picture:
   track: false
 
-android4719ddc5a1ad37eb:
-  hide_if_away: false
-  icon:
-  mac: F0:D7:AA:D7:F2:63
-  name: android-4719ddc5a1ad37eb
-  picture:
-  track: false
-
 unknown_56:
   hide_if_away: false
   icon:
@@ -702,30 +666,6 @@ unknown_65:
   icon:
   mac: 40:4E:36:E6:F3:EB
   name: Unknown
-  picture:
-  track: false
-
-iphone:
-  hide_if_away: false
-  icon:
-  mac: 90:DD:5D:6E:1A:52
-  name: iPhone
-  picture:
-  track: false
-
-iphonexr:
-  hide_if_away: false
-  icon:
-  mac: 74:B5:87:54:8C:67
-  name: iPhonexr
-  picture:
-  track: false
-
-iphone_2:
-  hide_if_away: false
-  icon:
-  mac: EC:2C:E2:16:B7:DB
-  name: iPhone-2
   picture:
   track: false
 
