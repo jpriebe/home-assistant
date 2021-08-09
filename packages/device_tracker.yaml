@@ -1,9 +1,17 @@
 device_tracker:
 
+
+#### not working; might have to try "ping" platform instead
   - platform: netgear
-    host: 10.0.1.1
+    #url: http://www.orbilogin.com
     username: !secret orbi_username
     password: !secret orbi_password
+    accesspoints:
+      - 9C:3D:CF:2C:A4:A0
+      - 9C:3D:CF:2C:A5:7C
+    devices:
+       #### jason's phone
+       0e:4f:e9:31:bd:a0
 
 group:
   jason:
