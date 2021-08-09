@@ -23,3 +23,12 @@ alexa:
       switch.back_porch_lamp:
         name: Back porch
         description: Back porch lamp
+      switch.jasons_lamp_switch:
+        name: Jason's Lamp
+        description: Jason's bedroom lamp
+      switch.kims_lamp_switch:
+        name: Kim's Lamp
+        description: Kim's bedroom lamp
+      switch.guest_room_lamp_switch:
+        name: Guest Room Lamp
+        description: Guest room lamp
