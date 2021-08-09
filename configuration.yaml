@@ -62,10 +62,6 @@ tts:
 # Cloud
 cloud:
 
-mqtt:
-  # Secrets are defined in the file secrets.yaml
-  password: !secret mqtt_password
-
 scene: !include scenes.yaml
 script: !include scripts.yaml
 
