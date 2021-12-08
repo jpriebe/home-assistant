@@ -46,7 +46,7 @@
     entity_id: switch.guest_room_lamp_switch
 - id: night_guest_room_off
   hide_entity: true
-  alias: Turn the guest room lamp off about an hour after sunset
+  alias: Turn the guest room lamp off at night
   trigger:
   - platform: sun
     event: sunset
