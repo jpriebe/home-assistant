@@ -72,3 +72,5 @@ recorder:
   purge_keep_days: 30
 
 api:
+
+automation: !include automations.yaml

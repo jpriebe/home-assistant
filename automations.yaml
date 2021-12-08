@@ -1,1 +1,196 @@
-[]
+- id: entry_light_on_when_arriving_home
+  alias: Entry light on when someone gets home
+  initial_state: true
+  hide_entity: true
+  trigger:
+    platform: state
+    entity_id: group.all_devices
+    from: not_home
+    to: home
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+    service: switch.turn_on
+    entity_id: switch.entry_light_switch
+- id: night_dark_theme
+  hide_entity: true
+  alias: Change to a dark theme at night
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+    service: frontend.set_theme
+    data:
+      name: midnight
+- id: day_light_theme
+  hide_entity: true
+  alias: Change to a light theme during the day
+  trigger:
+  - platform: sun
+    event: sunrise
+  action:
+    service: frontend.set_theme
+    data:
+      name: default
+- id: night_guest_room_on
+  hide_entity: true
+  alias: Turn the guest room lamp on at night
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.guest_room_lamp_switch
+- id: night_guest_room_off
+  hide_entity: true
+  alias: Turn the guest room lamp off about an hour after sunset
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+  - delay: 02:{{- ((range(1,50) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.guest_room_lamp_switch
+- id: night_porch_on
+  hide_entity: true
+  alias: Turn the porch light on at night
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.front_porch_switch
+  - service: switch.turn_on
+    entity_id: switch.entry_light_switch
+- id: night_porch_off
+  hide_entity: true
+  alias: Turn the porch light off at night
+  trigger:
+  - platform: time
+    at: '23:30:00'
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.front_porch_switch
+  - service: switch.turn_off
+    entity_id: switch.entry_light_switch
+- id: morning_porch_on
+  hide_entity: true
+  alias: Turn the porch light on in the morning
+  trigger:
+  - platform: time
+    at: 05:45:00
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.front_porch_switch
+  - service: switch.turn_on
+    entity_id: switch.entry_light_switch
+- id: morning_porch_off
+  hide_entity: true
+  alias: Turn the porch light off in the morning
+  trigger:
+  - platform: sun
+    event: sunrise
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.front_porch_switch
+  - service: switch.turn_off
+    entity_id: switch.entry_light_switch
+- id: night_holiday_lights_on
+  hide_entity: true
+  alias: Turn the xmas lights on at night
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.holiday_lights_switch
+- id: night_holiday_lights_off
+  hide_entity: true
+  alias: Turn the xmas lights off at night
+  trigger:
+  - platform: time
+    at: '23:30:00'
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.holiday_lights_switch
+- id: morning_holiday_lights_on
+  hide_entity: true
+  alias: Turn the xmas lights on in the morning
+  trigger:
+  - platform: time
+    at: 05:45:00
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.holiday_lights_switch
+- id: morning_holiday_lights_off
+  hide_entity: true
+  alias: Turn the xmas lights off in the morning
+  trigger:
+  - platform: sun
+    event: sunrise
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.holiday_lights_switch
+- id: night_back_porch_on
+  hide_entity: true
+  alias: Turn the back porch lamp on at night
+  trigger:
+  - platform: sun
+    event: sunset
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.back_porch_lamp
+- id: night_back_porch_off
+  hide_entity: true
+  alias: Turn the back porch lamp off at night
+  trigger:
+  - platform: time
+    at: '23:30:00'
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.back_porch_lamp
+- id: morning_back_porch_on
+  hide_entity: true
+  alias: Turn the back porch lamp on in the morning
+  trigger:
+  - platform: time
+    at: 05:45:00
+  condition:
+  - condition: state
+    entity_id: sun.sun
+    state: below_horizon
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_on
+    entity_id: switch.back_porch_lamp
+- id: morning_back_porch_off
+  hide_entity: true
+  alias: Turn the back porch lamp off in the morning
+  trigger:
+  - platform: sun
+    event: sunrise
+  action:
+  - delay: 00:{{- ((range(1,9) | random) ~ '').rjust(2, '0') -}}:00
+  - service: switch.turn_off
+    entity_id: switch.back_porch_lamp
